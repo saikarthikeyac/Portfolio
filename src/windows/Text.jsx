@@ -15,10 +15,10 @@ const Text=()=>{
                 <WindowControls target="txtfile"/>
                 <h2>{name}</h2>
             </div>
-            <div className="p-5 space-y-6 bg-white">
+            <div className="p-5 space-y-6 bg-white max-h-[70vh] overflow-y-auto">
                 {image?(
-                    <div className="w-full">
-                        <img src={image} alt={name} className="w-full h-auto rounded"/>
+                    <div className="w-full flex justify-center">
+                        <img src={image} alt={name} className="w-48 h-48 object-cover rounded-lg"/>
                     </div>
                 ):null}
 

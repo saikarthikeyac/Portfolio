@@ -11,7 +11,7 @@ const Contact = () => {
             <h2>Contact Me</h2>
         </div>
         <div className='p-5 space-y-5'>
-            <img src="/images/adrian.jpg" alt="Sai Karthikeya" className='w-20 rounded-ful'></img>
+            {/*<img src="/images/adrian.jpg" alt="Sai Karthikeya" className='w-20 rounded-ful'></img>*/}
             <h3>Let's Connect</h3>
             <ul>
                 {socials.map(({id, bg, link,icon, text}) => (

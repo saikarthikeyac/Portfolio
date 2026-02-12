@@ -77,53 +77,44 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+    date: "Feb 12, 2026",
+    title: "Truth Galaxy - My YouTube Channel",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://www.youtube.com/@Truth-Galaxy",
   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React.js", "Next.js"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express","FastAPI"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL","MySQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker","Kubernetes"],
   },
+  {
+    category: "ML & LLM Frameworks",
+    items: [
+      "TensorFlow",
+      "LangChain",
+      "ChromaDB",
+      "pandas"
+    ],
+  }
+
 ];
 
 const socials = [
@@ -132,28 +123,35 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/saikarthikeyac",
   },
   {
     id: 2,
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://saikarthikeya.com/",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/saikarthikeya_c",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/saikarthikeya",
+  },
+  {
+    id: 5,
+    text: "Email",
+    icon: "/icons/mail.svg",
+    bg: "#ffb84d",
+    link: "mailto:saikarthikeye.c@gmail.com",
   },
 ];
 
@@ -188,19 +186,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/me.png",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/ai-image.png",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/lung-sim1.png",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/lung-sim2.png",
   },
 ];
 
@@ -225,7 +223,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "AI-Powered Question Paper Generator",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,44 +231,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "AI Paper.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "An AI-powered system that automatically generates structured question papers from NCERT textbooks.",
+            "Built using a complete RAG pipeline with recursive text chunking, embeddings, and Chroma vector search.",
+            "Fine-tuned Mistral 7B generates contextual questions and answers with high relevance.",
+            "Includes duplicate detection, similarity checks, and regeneration logic to ensure quality and uniqueness."
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "repository link",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/saikarthikeyac/AI-powered-question-paper-",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "ai-paper.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
+          imageUrl: "/images/ai-image.png",
         },
       ],
     },
@@ -300,30 +289,12 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "ai-resume-analyzer repo",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/saikarthikeyac/resumeboost",
           position: "top-20 left-20",
-        },
-        {
-          id: 4,
-          name: "ai-resume-analyzer.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
         },
       ],
     },
@@ -331,7 +302,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "End-to-End Stock Sentiment & ML Prediction Pipeline",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,44 +310,79 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "End-to-End Stock Sentiment & ML Prediction Pipeline.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "An end-to-end real-time stock prediction system powered by news sentiment and machine learning.",
+            "Built with a Redis-based distributed pipeline that processes financial news and streams features into a Random Forest model.",
+            "Integrates yfinance for live stock data, SQLite for storage, and FastAPI + Streamlit for API serving and visualization.",
+            "Demonstrates full data workflow design including ingestion, processing, prediction, and dashboard deployment."
+          ],
+
+        },
+        {
+          id: 2,
+          name: "repo link.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/saikarthikeyac/SentimentGrid-A-Distributed-Data-Science-Engine-for-Real-Time-Stock-Analytics",
+          position: "top-10 right-20",
+        },
+      ],
+    },
+        // ▶ Project 4
+    {
+      id: 8,
+      name: "LungSimX: Pulmonary Drug Interaction Simulator",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-50 left-100", // icon position inside Finder
+      windowPosition: "top-[50vh] left-5", // optional: Finder window position
+      children: [
+        {
+          id: 1,
+          name: "Lung Sim.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "A collaborative 3D pulmonary drug interaction simulator built using Three.js to visualize real-time drug effects on lung tissue.",
+            "Contributed to simulation logic, dynamic dosage visualization, and animated spread/recovery transitions.",
+            "Implemented timer-based progress effects and modular UI components for interactive drug selection.",
+            "Developed as part of a collaborative project (2 contributors)."
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "repository link",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/Gunda-Sukesh/LungXSim",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "lung-sim.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          position: "top-52 right-100",
+          imageUrl: "/images/lung-sim1.png",
         },
         {
           id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
+          name: "lung-sim2.png",
+          icon: "/images/image.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
+          fileType: "img",
+          position: "top-62 right-80",
+          imageUrl: "/images/lung-sim2.png",
         },
       ],
     },
@@ -397,26 +403,9 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.png",
     },
-    {
-      id: 2,
-      name: "casual-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
+
     {
       id: 4,
       name: "about-me.txt",
@@ -424,14 +413,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "Meet the Developer",
+      image: "/images/me.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey, I’m Sai Karthikeya 👋 — a final-year CSE student with an AI & ML specialization.",
+        "I enjoy building practical systems — from full-stack web applications to backend-focused and AI-driven projects.",
+        "I like understanding things end-to-end, whether it’s structuring clean databases, designing responsive UIs, or integrating intelligent models into real applications.",
+        "I focus on writing clear, maintainable code and building solutions that are reliable and scalable.",
+        "Outside academics, I also create content on YouTube as a creative outlet and way to explore different ideas."
       ],
+
     },
   ],
 };
@@ -469,16 +460,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
-    },
-    {
-      id: 2,
-      name: "trash2.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-40 left-80",
-      imageUrl: "/images/trash-2.png",
+      imageUrl: "/images/trash1.png",
     },
   ],
 };
